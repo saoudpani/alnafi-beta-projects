@@ -24,4 +24,4 @@ pass_list = [
 
 random.shuffle(pass_list) # randomly shuffle the pass_list 
 password  = ''.join(pass_list) #join the elements of pass_list into password string
-print(password)
+print("Your Random Password is: "+password)
